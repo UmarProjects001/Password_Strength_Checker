@@ -1,2 +1,30 @@
-# Password_Strength_Checker
-It is a simple basic python program that tells you weather you password is weak , medium or strong. It is good for spreading awarness for creating a strong password , and you yourself can check or test how strong your password really is , enjoy your experience.
+Password=input("Enter your Password: ")
+score=0
+if len(Password)>=8:
+    print("Password is of good length")
+    score+=1
+else:
+    print("Password is too short")
+special_chars = "@#$!%&*?+=_- "
+if any(char in special_chars for char in Password):
+    print("Password Contains special characters")
+    score+=1
+else:
+    print("Password does not contain special characters")
+if any (char.isupper() for char in Password):
+    print("Password contains Upper case letters")
+    score+=1
+else:
+    print("Password does not contain Upper case letters")
+if any(char.isdigit() for char in Password):
+    print("Password has numbers")
+    score+=1
+else:
+    print("Password does'nt has numbers")
+print("Your password strenght on a 4 scale is:",score)
+if score >=3:
+  print("Your password is strong")
+elif score <=1
+print("Your password is weak")
+else:
+print("Your password is of medium strength")
