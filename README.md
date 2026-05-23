@@ -1,3 +1,3 @@
-Ever wonder how safe your favorite password actually is? I built Password Shield, a fast, interactive Python terminal tool designed to audit your credentials in real time. Built completely from scratch using clean logic and advanced Python character scanners, this app grades any password on a strict 4-point scale.
+Ever wonder how safe your favorite password actually is? I built Password Shield, a fast, interactive Python terminal tool designed to audit your credentials in real time. Built completely from scratch using clean logic and simple Python character scanners, this app grades any password on a strict 4-point scale.
 
 It checks for optimal length, uppercase letters, digits, and special characters, giving instant feedback on where your security stands. I created this project to spread cybersecurity awareness in a fun, gamified way. Go ahead—test your password for fun and see if your defense is weak, moderate, or Fort Knox level
